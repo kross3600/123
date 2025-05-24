@@ -1,3 +1,16 @@
+---------------------------->> Customization <<----------------------------
+
+ExtendProjectory = true
+HitPositionVisible = true
+ShowCollisions = false
+Theme = "Bright Red" --[[
+Try "Bright red" for a red / black table, default is ""=Institutional white" 
+All themes: https://robloxapi.github.io/ref/type/BrickColor.html
+--]]
+
+-------------------------------->> Code <<--------------------------------
+----->> Do not edit below this line unless you know what you're doing <<-----
+
 workspace.Tables.Table1.Table.BrickColor = BrickColor.new(Theme)
 workspace.Tables.Table1.Guides.HitPosition.Mesh.Scale = Vector3.new(0.5, 0, 0.5)
 
